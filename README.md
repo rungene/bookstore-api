@@ -94,3 +94,10 @@ PORT=3000
 ATLAS_URI=mongodb+srv://username:password@cluster0.mongodb.net/bookstore?retryWrites=true&w=majority
 LOCAL_TEST_URI=mongodb://localhost:27017/test_bookstore
 
+# Additional Resources
+
+- Complete MongoDB Tutorial by Net Ninja: https://www.youtube.com/watch?v=084rmLU1UgA&list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&index=25
+
+**License**
+
+[![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
