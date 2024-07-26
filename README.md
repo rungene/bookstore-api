@@ -93,6 +93,7 @@ Create a `.env` file in the root directory of your project to set these variable
 PORT=3000
 ATLAS_URI=mongodb+srv://username:password@cluster0.mongodb.net/bookstore?retryWrites=true&w=majority
 LOCAL_TEST_URI=mongodb://localhost:27017/test_bookstore
+```
 
 # Additional Resources
 
