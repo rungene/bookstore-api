@@ -11,7 +11,7 @@ const uri = env === 'test' ? testUri : localUri;
 let dbConnection;
 module.exports = {
   connectToDb: (cb) => {
-    MongoClient.connect(uri)
+    MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
       .then((client) => {
         dbConnection = client.db();
         return cb();
